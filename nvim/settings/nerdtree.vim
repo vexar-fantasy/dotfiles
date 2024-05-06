@@ -51,3 +51,4 @@ endif
 
 " Ignore some type of files: 
 let NERDTreeIgnore=['__pycache__', 'site-packages']
+

@@ -11,3 +11,4 @@ let g:gitgutter_sign_removed = '✖'
 "let g:gitgutter_sign_modified_removed = '<'
 
 let g:gitgutter_preview_win_floating = 1
+
