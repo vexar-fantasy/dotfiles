@@ -1,7 +1,9 @@
+# Warning: I am not sponsored for any of the following
+
 # Vim Config 
 
 [Note]
-- Can run on both Window and Linux
+- Can run on both Windows and Linux, MacOS hasn't been tested yet
 - Run command :PlugInstall after pulling this resource
 
 
