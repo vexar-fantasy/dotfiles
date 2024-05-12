@@ -48,7 +48,7 @@
           }
         ]
       },
-      "editor.fontFamily": "JetBrains Mono, Consolas, 'Courier New', monospace",
+      "editor.fontFamily": "JetBrains Mono, JetBrainsMono Nerd Font,  Consolas, 'Courier New', monospace",
       "editor.fontSize": 16,
       "files.autoSave": "afterDelay",
       "terminal.integrated.persistentSessionReviveProcess": "never",
