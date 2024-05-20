@@ -77,3 +77,13 @@
     + vscode-pdf: PDF viewer
     + vscode-spell-checker: Spell checker
 
+
+# Neovim
+-Currently using Neovim in Linux for my main editor. It fast, lightweight
+-Config for Neovim is in this repo
+
+# Linux
+-Using both Windows 11 and Debian Linux
+-Windows 11 for entertainment and Debian for coding
+-Using Debian Bookworm with zsh shell and Kitty terminal with Sway WM
+
