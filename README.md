@@ -2,19 +2,19 @@
 
 # Vim Config 
 
-[Note]
+## Note
 - Can run on both Windows and Linux, MacOS hasn't been tested yet
 - Run command :PlugInstall after pulling this resource
 
 
-[Requirement]
+## Requirement
 - NodeJS
 - Python
 - Git
 
 # Powershell Config
 
-[Note]
+## Note
 - Using PowerShell 7.x with Oh My Posh
 - Using Nerd Font, example: JetBrainsMono Nerd Font, MesloLGS Nerd Font, etc
 - 75% Background Opacity with Enable Acrylic
@@ -43,48 +43,39 @@
             "selectionBackground": "#FFFFFF",
             "white": "#DCDFE4",
             "yellow": "#E5C07B"
-        },
+}
 ```
+Thanks to [Takuya](https://www.youtube.com/@devaslife) for a nice theme
 
-[Important]
+## Caution
 - Replace the path of the theme in the profile.ps1
 - Install Terminal-Icons module with `Install-Module -Name Terminal-Icons`
 - Install z module with `Install-Module -Name z`
-- Install winfetch with `choco install winfetch` at Administrator
-
-[Theme of Oh My Posh]
-- I used `Robby Russel` theme
+## Theme of oh-my-posh
+- If the command `notepad $PROFILE` gives an error, make sure to create the profile first using `New-Item -Path $PROFILE -Type File -Force`
+- I am using `Takuya` theme
 - You can change the theme with `oh-my-posh set-theme <theme-name>`
-- You can find the theme in `C:\Users\<Your Name>\.config\PowerShell\themes`
+- You can put the theme in `C:\Users\<Your Name>\.config\PowerShell\themes`
 
 # VSCode or Based-VSCode Editor
 
-[Note]
-- I sometime use VSCode but Cursor is my main editor
-- This config can use on every on Based-VSCode Editor, eg: Cursor, VSCode, etc
-- This config is based on Cursor with AI
+## Note
+- I used to use Cursor for my main editor, but now I switched back to VSCode because it's support better for WSL
 
-[Extensions]
-- I kinda a minimal person so it's just only 10 extensions, include:
+## Extensions
+- I am currently learning C++ so my main extension is around C/C++:
     + Code Runner: Run code in terminal
     + GitLens: Git
     + Material Icon Theme: Icon for the editor
-    + One Dark Pro: Theme for the editor
-    + PowerShell: PowerShell extension
-    + Terminal Integration: Run terminal in the editor
-    + vscode-icons: Icon for the editor
-    + vscode-markdown-preview-theme: Markdown preview
-    + vscode-pdf: PDF viewer
-    + vscode-spell-checker: Spell checker
+    + Dracula: Theme for the editor
+    + WSL: To run WSL in VSCode
+    + Better C++ syntax: Like the name says
+    + C/C++: To debug, compile and run C/C++
+- And I am also using Codeium as AI for the editor
+### Becareful, you should use AI after learning the basic of that language first 
 
 
-# Neovim
-- Currently using Neovim in Linux for my main editor. It fast, lightweight
-- Config for Neovim is in this repo
-
-# Linux
-- Using both Windows 11 and Debian Linux
-- Windows 11 for entertainment and Debian for coding
-- Using Debian Bookworm with zsh shell and Kitty terminal with Sway WM and Waybar at the top
-- Using Fira Code Retina size 14 as the main font for the system
+# Neovim 
+-  I am using Neovim for some another file editing, so I am not using it in my main editor
+- Config is in this repository
 
